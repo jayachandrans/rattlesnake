@@ -1,0 +1,19 @@
+﻿<ion-view view-title="Login" name="login-view">
+    <div class="bar bar-subheader bar-assertive">
+        <h2 class="title">Scan your badge or key in</h2>
+    </div>
+    <ion-content class="padding has-subheader">
+        <div class="list list-inset">
+            <label class="item item-input">
+                <input type="text" placeholder="Username" ng-model="data.username">
+            </label>
+            <label class="item item-input">
+                <input type="password" placeholder="Password" ng-model="data.password">
+            </label>
+        </div>
+        <button class="button button-block button-assertive" ng-click="login()">Login</button>
+    </ion-content>
+    <div class="bar bar-footer bar-energized">
+        <div class="title">Copyright, Target Corporation 2015</div>
+    </div>
+</ion-view>
